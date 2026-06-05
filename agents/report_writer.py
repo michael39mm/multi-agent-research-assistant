@@ -36,7 +36,8 @@ Research Questions:
 Original Findings:
 {findings}
 
-
+Critiques:
+{criticisms}
 
 Additional Findings:
 {additional_findings}
@@ -45,12 +46,15 @@ Your task is to produce a professional research report.
 
 Requirements:
 
-- Integrate all findings into one coherent report.
-- Use both original and follow-up research.
-- Address limitations and uncertainties.
-- Present balanced conclusions.
-- Avoid repetition.
-- Use professional academic language.
+* Integrate all findings into one coherent report.
+* Use both original and follow-up research.
+* Address limitations and uncertainties.
+* Present balanced conclusions.
+* Avoid repetition.
+* Use professional academic language.
+* Base all conclusions and recommendations on the available evidence.
+* Do not make unsupported claims.
+* Clearly acknowledge remaining uncertainties where evidence is limited.
 
 Structure:
 
@@ -62,7 +66,25 @@ Structure:
 
 4. Final Conclusion
 
+5. Overall Assessment and Recommendation
+
+For Section 5, provide:
+
+Overall Assessment:
+
+* A concise synthesis of the overall evidence.
+* Explain what the evidence collectively suggests.
+
+Recommendation:
+
+* Based on the available evidence, identify the most reasonable conclusion, strategy, or course of action.
+* Recommendations must be evidence-based.
+* Recommendations must acknowledge important limitations and uncertainties.
+* Do not overstate confidence.
+* If evidence is mixed or inconclusive, clearly state this.
+
 Return only the report.
+
 """
 
     response = llm.invoke(prompt)
