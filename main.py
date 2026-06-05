@@ -6,7 +6,7 @@ try:
 
     result = graph.invoke(
         {
-            "query": "What are the most effective strategies for retrofitting educational buildings to improve energy efficiency and indoor environmental quality?",
+            "query": "How can universities in hot-arid climates reduce energy consumption while maintaining occupant comfort and indoor environmental quality?",
             "iteration_count": 0
         }
     )
